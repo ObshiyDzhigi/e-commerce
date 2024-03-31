@@ -1,0 +1,22 @@
+.productdisplay__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container{
+    padding: 0;
+  }
+  .productdisplay-left {
+    display: grid;
+    grid-template-columns: repeat(4, 100px) ;
+    gap: 10px; /* Пример зазора между изображениями в .productdisplay-left */
+  }
+  .productdisplay-img-list img{
+  }
+  .productdisplay-main-img {
+    min-width: 100vh;
+    grid-column-start: 2;
+  }
+  
+  .productdisplay-main-img img {
+    object-fit: cover;
+  }
